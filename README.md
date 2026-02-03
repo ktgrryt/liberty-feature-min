@@ -18,7 +18,7 @@ mvn liberty:dev
 
 http://localhost:9080/demo-app でアクセス可能です。問題なく動作しているか確認してください。
 
-次に、このアプリのfeatureを最小化します。
+次に、Bobにスラッシュコマンドを追加し、このアプリのfeatureをレビューしていきます。
 
 プロジェクトファイルの中にある`liberty-feature-min.md`を以下どちらかに配置してください。
 - `.bob/commands/`
