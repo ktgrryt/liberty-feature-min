@@ -5,7 +5,7 @@ Libertyのスラッシュコマンドによるserver.xmlのレビューを実施
 ## 前提の環境
 - Maven （検証環境：v3.9.9）
 - Java 21
-- IBM Bob（CLI版、GUI版いずれでも可能）
+- IBM Bob（CLI版 v0.0.32、GUI版 v0.0.14）
 
 ## 使用方法
 このプロジェクトをローカルにクローンします。
