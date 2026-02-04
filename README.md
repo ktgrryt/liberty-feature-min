@@ -39,7 +39,7 @@ Bobのチャット欄で`/liberty-feature-min`と入力すると、先ほどのm
     </featureManager>
 ```
 
-レビュー後に以下のようなプロンプトで、featureの構成を最小化してください。
+レビューが無事に完了したら以下のようなプロンプトで、featureの構成を最小化してください。
 
 ```plaintext
 提案された内容をもとに、server.xmlのfeatureを最小化してください。
