@@ -32,7 +32,6 @@ Bobのチャット欄で`/liberty-feature-min`と入力すると、先ほどのm
     <featureManager>
         <feature>jakartaee-10.0</feature>
         <feature>microProfile-7.0</feature>
-        <feature>ssl-1.0</feature>
         <!-- 以下は検証用の追加feature（不要） -->
         <feature>websocket-2.1</feature>
         <feature>jsonb-3.0</feature>
