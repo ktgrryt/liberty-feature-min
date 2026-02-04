@@ -5,7 +5,6 @@ Libertyのスラッシュコマンドによるserver.xmlのレビューを実施
 ## 前提の環境
 | コンポーネント      | 検証環境                                   |
 | ------------ | ------------------------------------------------- |
-| Apache Maven | 3.9.9                                             |
 | Java 21      | IBM Semeru Runtime Open Edition 21.0.8.0          |
 | IBM Bob      | CLI 0.0.32、GUI 0.0.14                             |
 
@@ -15,7 +14,7 @@ Libertyのスラッシュコマンドによるserver.xmlのレビューを実施
 プロジェクトファイルのあるディレクトリに移動し、以下のコマンドでアプリケーションを起動します。
 
 ```bash
-mvn liberty:dev
+./mvnw liberty:dev
 ```
 
 http://localhost:9080/demo-app でアクセス可能です。問題なく動作しているか確認してください。
@@ -50,7 +49,7 @@ Bobのチャット欄で`/liberty-feature-min`と入力すると、先ほどのm
 server.xmlの修正が完了したら、再度アプリを起動します。
 
 ```bash
-mvn liberty:dev
+./mvnw liberty:dev
 ```
 
 問題なく動作していることを確認してください。
